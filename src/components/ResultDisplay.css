@@ -1,0 +1,46 @@
+.ResultDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  flex-direction: row;
+  max-width: 600px;
+}
+
+.ResultDisplay-image-face {
+  width: 150px;
+  height: 150px;
+}
+
+.ResultDisplay-card {
+  width: 300px;
+  /* margin: 20px auto; */
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ResultDisplay-card .card-header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.ResultDisplay-card .list-group-item {
+  border-color: rgba(0, 123, 255, 0.5);
+  font-size: 18px;
+}
+
+.colour-neutral {
+  background-color: #585858;
+}
+
+.colour-positive {
+  background-color: #28a745;
+}
+
+.colour-negative {
+  background-color: #dc3545;
+}

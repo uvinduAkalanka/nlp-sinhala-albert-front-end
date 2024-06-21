@@ -1,0 +1,48 @@
+.modal-dialog{
+    margin-top: 250px;
+}
+.modal-body{
+    text-align: center;
+    font-weight: 600;
+
+}
+.modal-header{
+    display:block !important;
+    text-align: center;
+}
+
+.btn-secondary{
+    background-color: #810a0a;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.textInput {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.textAreaInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+}
+
+.textAreaInput:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
